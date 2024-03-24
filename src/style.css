@@ -55,3 +55,39 @@ body {
   margin: 0 20% 20px;
   text-align: center;
 }
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: auto;
+    background-color: bisque;
+  }
+
+  .playerDataBlock {
+    width: 95%;
+    display: block;
+    color: black;
+    background-color: slategray;
+    min-height: auto;
+    margin: auto auto 10px;
+  }
+
+  .playerName {
+    margin-right: 0;
+    margin-bottom: 10px;
+  }
+
+  .game-info {
+    margin: 0 10px 20px;
+  }
+
+  .gameContainer {
+    padding: auto;
+    display: block;
+    margin: auto;
+    justify-content: center;
+  }
+
+  canvas {
+    margin: 5px;
+  }
+}
